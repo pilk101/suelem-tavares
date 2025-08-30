@@ -2,6 +2,10 @@
     min-height: 100vh;
 }
 
+#quem_sou_eu p{
+    text-indent: 50px;
+}
+
 #esquerda_quem button{
     justify-content: center;
 }

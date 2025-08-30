@@ -1,0 +1,18 @@
+#abordagem{
+    margin: 30px 30px;
+}
+
+#esquerda_abordagem img{
+    height: 650px;
+}
+
+#direita_abordagem{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#direita_abordagem h1{
+    text-align: left;
+}

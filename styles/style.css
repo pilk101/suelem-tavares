@@ -23,6 +23,7 @@ body{
 }
 
 h1{
+    color: #591b04;
     text-align: center;
     margin-bottom: 25px;
     font-size: 50px;
@@ -33,7 +34,6 @@ section{
 }
 
 p{
-    text-indent: 50px;
     text-align: justify;
     font-size: 18px;
 }
