@@ -68,6 +68,11 @@ a{
     gap: 30px;
 }
 
+.subtitulo{
+    text-align: center;
+    padding: 15px;
+}
+
 @media screen and (max-width: 1170px){
     .colunas{
         display: grid;

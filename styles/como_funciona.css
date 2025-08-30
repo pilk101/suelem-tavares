@@ -1,3 +1,20 @@
 #como_funciona{
+    display: flex;
     background-color: #e48b57;
+    align-items: center;
+    justify-content: center;
+}
+
+#texto{
+    align-items: center;
+    width: 55%;
+    padding: 20px;
+}
+
+#texto h1{
+    font-size: 35px;
+}
+
+#texto p{
+    font-size: 17px;
 }
