@@ -75,7 +75,8 @@ a{
 
 @media screen and (max-width: 1170px){
     .colunas{
-        display: grid;
+        flex-direction: column;
         justify-content: center;
+        align-items: center;
     }
 }

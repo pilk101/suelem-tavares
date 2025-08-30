@@ -21,6 +21,23 @@
     #abordagem{
         margin: 0px 0px;
     }
+
+    #abordagem .colunas{
+        align-items: center;
+    }
+
+    #esquerda_abordagem img{
+        width: 100%;
+        height: auto;
+    }
+
+    #direita_abordagem{
+        align-items: center;
+        width: 100%;
+        padding: 20px;
+        overflow-wrap: break-word;
+    }
+
     #direita_abordagem h1{
         font-size: 31px;
         text-align: center;
