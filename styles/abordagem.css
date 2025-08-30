@@ -16,3 +16,13 @@
 #direita_abordagem h1{
     text-align: left;
 }
+
+@media screen and (max-width: 1170px){
+    #abordagem{
+        margin: 0px 0px;
+    }
+    #direita_abordagem h1{
+        font-size: 31px;
+        text-align: center;
+    }
+}
