@@ -18,3 +18,9 @@
 #texto p{
     font-size: 17px;
 }
+
+@media screen and (max-width: 1170px){
+    #texto{
+        width: 100%;
+    }
+}
