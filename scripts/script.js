@@ -1,6 +1,7 @@
 $(document).ready(function() {
     $('#mobile_btn').on('click', function () {
         $('#mobile_menu').toggleClass('active');
-        $('#mobile_btn').find("i").toggleClass('fa-x')
+        var icon = $('#mobile_btn').find("i");
+        icon.toggleClass('fa-bars fa-x');
     });
 });

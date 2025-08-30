@@ -19,7 +19,7 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
 }
 
 body{
-    background-color: #dbd3ce;
+    background-color: #efbf99;
 }
 
 h1{
@@ -66,4 +66,11 @@ a{
 .colunas{
     display: flex;
     gap: 30px;
+}
+
+@media screen and (max-width: 1170px){
+    .colunas{
+        display: grid;
+        justify-content: center;
+    }
 }

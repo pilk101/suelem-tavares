@@ -18,3 +18,24 @@
     object-fit: cover;
     border-radius: 150px 150px 0px 150px;
 }
+
+@media screen and (max-width: 1170px) {
+    #quem_sou_eu h1{
+        font-size: 32px;
+    }
+    
+    #esquerda_quem{
+        width: calc(100vw - 100px);
+        overflow-wrap: break-word;
+        order: 2;
+    }
+
+    #direita_quem{
+        width: calc(100vw - 100px);
+        order: 1;
+    }
+
+    #direita_quem img{
+        border-radius: 10px;
+    }
+}
