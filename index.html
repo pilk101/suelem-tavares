@@ -3,48 +3,58 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="styles/style.css">
+        <link rel="stylesheet" href="styles/header.css">
+        <link rel="stylesheet" href="styles/quem_sou_eu.css">
+        <script src="https://kit.fontawesome.com/ec63c62906.js" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
         <title>Suelem Tavares</title>
     </head>
     <body>
         <header>
-                <div id="logo">
-                    <img src="img/sonic.png">
-                </div>
-                <div id="outros">
-                    <ul>
-                        <li>Quem Sou Eu</li>
-                        <li>Como Funciona</li>
-                        <li>Abordagem</li>
-                        <li>Depoimentos</li>
-                        <li>Endereço</li>
-                        <li>Contato</li>
-                    </ul>
-                </div>
+            <nav id="navbar">
+                <img id="logo" src="img/sonic.png">
+                <ul id="lista">
+                    <li class="item active"><a href="#quem_sou_eu">Quem Sou Eu</a></li>
+                    <li class="item"><a href="#como_funciona">Como Funciona</a></li>
+                    <li class="item"><a href="#abordagem">Abordagem</a></li>
+                    <li class="item"><a href="#depoimentos">Depoimentos</a></li>
+                    <li class="item"><a href="#endereco">Endereço</a></li>
+                    <li class="item"><a href="#contato">Contato</a></li>
+                </ul>
+                <button id="mobile_btn"><i class="fa-solid fa-bars"></i></button>
+            </nav>
+            <div id="mobile_menu">
+                <ul id="mobile_lista">
+                    <li class="item"><a href="#quem_sou_eu">Quem Sou Eu</a></li>
+                    <li class="item"><a href="#como_funciona">Como Funciona</a></li>
+                    <li class="item"><a href="#abordagem">Abordagem</a></li>
+                    <li class="item"><a href="#depoimentos">Depoimentos</a></li>
+                    <li class="item"><a href="#endereco">Endereço</a></li>
+                    <li class="item"><a href="#contato">Contato</a></li>
+                </ul>
+            </div>
         </header>
-        <hr>
         <main>
-            <div id="quem_sou_eu">
+            <section id="quem_sou_eu">
                 <h1>Acolhendo e potencializando trajetória</h1>
                 <div class="colunas">
-                    <div class="coluna um">
+                    <div id="esquerda_quem">
                         <p>Olá, sou Suelem Tavares, psicóloga clínica (CRP 05/49938), graduada pela Faculdade Maria Tereza, com especialização em Psicanálise e Relações Étnico-Raciais. Acredito profundamente na força e no potencial de cada indivíduo para encontrar seu próprio caminho de bem-estar e realização, e é com essa convicção que conduzo minha prática clínica, oferecendo um espaço terapêutico acolhedor e livre de formalidades desnecessárias.</p>
+                        <br>
                         <p>Minha prática clínica se fundamenta na escuta psicanalítica, articulada à minha especialização em relações étnico-raciais e ao constante aprimoramento em áreas como luto, violência doméstica, ansiedade e depressão, através de formações e participação em grupos de estudo. Acolho diversas manifestações do sofrimento psíquico, oferecendo um espaço sensível e individualizado também para questões de relacionamentos, desenvolvimento pessoal e outros desafios da vida adulta.</p>
+                        <br>
                         <p>Busco integrar a profundidade da psicanálise com a atenção às singularidades de cada história, criando um ambiente de acolhimento e respeito para a sua jornada de autodescoberta e transformação. Se você procura um acompanhamento psicológico que considere a complexidade da sua experiência, te convido a entrar em contato para construirmos juntos um caminho de maior autenticidade e bem-estar.</p>
+                        <br>
+                        <button class="btn-default"><a href="https://api.whatsapp.com/send?phone=5521975759062">Saiba Mais</a></button>
                     </div>
-                    <div class="coluna dois">
-                        <img id="suelem" src="img/shadow.png" alt="Suelem Tavares">
+                    <div id="direita_quem">
+                        <img src="img/shadow.png" alt="Suelem Tavares">
                     </div>
                 </div>
-                <div class="saiba_mais">
-                    <a href="https://api.whatsapp.com/send?phone=5521975759062"><button>Saiba Mais</button></a>
-                </div>
-            </div>
+            </section>
             <hr>
-            <div id="como_funciona">
+            <section id="como_funciona">
                 <h1>Como funciona a terapia comigo</h1>
                 <p>Se você busca um espaço de escuta acolhedora e sem julgamentos para explorar suas questões e encontrar caminhos de transformação, seja bem-vindo(a)! Realizo atendimentos tanto online, para todo o Brasil e brasileiros no exterior, quanto presencialmente, na cidade de Niterói – RJ.</p>
                 <div class="subtitulo">
@@ -55,26 +65,24 @@
                     <h2>Duração e frequência dos atendimentos:</h2>
                 </div>
                 <p>Cada sessão tem a duração de até 50 minutos. Quanto à frequência ideal dos nossos encontros (semanal, quinzenal, etc.), essa é uma questão que avaliaremos juntos durante a entrevista inicial, levando em consideração suas necessidades, disponibilidade e objetivos terapêuticos.</p>
-            </div>
+            </section>
             <hr>
-            <div id="abordagem">
+            <section id="abordagem">
                 <div class="colunas">
-                    <div class="coluna um">
+                    <div id="esquerda_abordagem">
                         <img src="img/madoka.jpeg">
                     </div>
-                    <div class="coluna dois">
+                    <div id="direita_abordagem">
                         <div class="subtitulo">
                             <h2>Minha abordagem e o processo terapêutico</h2>
                         </div>
                         <p>Acredito que a transformação acontece através da exploração de novas perspectivas e da ressignificação de situações. Meu papel como psicóloga é oferecer um espaço seguro e de confiança para que você possa se aprofundar em suas questões, no seu próprio ritmo. <b>Não promovo a cura</b>, pois entendo que cada jornada é única, mas sim o desenvolvimento de recursos internos e a busca por um maior bem-estar e autenticidade.</p>
-                        <div class="saiba_mais">
-                            <a href="https://api.whatsapp.com/send?phone=5521975759062"><button>Saiba Mais</button></a>
-                        </div>
+                        <a href="https://api.whatsapp.com/send?phone=5521975759062"><button class="btn-default">Saiba Mais</button></a>
                     </div>
                 </div>
-            </div>
+            </section>
             <hr>
-            <div id="etapas">
+            <section id="etapas">
                 <div class="passos">
                     <div class="passo um">
                         <h3>Atendimento Online</h3>
@@ -89,9 +97,9 @@
                         <p>Descubra como acolher suas emoções e encontrar harmonia interna.</p>
                     </div>
                 </div>
-            </div>
+            </section>
             <hr>
-            <div id="depoimentos">
+            <section id="depoimentos">
                 <div class="subtitulo">
                     <h2>A importância da aceitação para o bem-estar emocional</h2>
                     <p>Leia os relatos de clientes satisfeitos e conheça os benefícios de nossos atendimentos psicológicos.</p>
@@ -128,15 +136,15 @@
                         <p>"Profissional super atenciosa e dedicada, minha experiência tem sido maravilhosa. Super indico!!!"</p>
                     </div>
                 </div>
-            </div>
+            </section>
             <hr>
-            <div id="endereco">
+            <section id="endereco">
                 <div class="colunas">
-                    <div class="coluna um">
+                    <div id="esquerda_endereco">
                         <h1>Psicologia clínica para alcançar equilíbrio emocional</h1>
                         <p>Descubra como agendar sua consulta de forma simples e prática, com todas as informações necessárias.</p>
                     </div>
-                    <div class="coluna dois">
+                    <div id="direita_endereco">
                         <div class="cilindro">
                             <p>Edifício Qualitty Office – R. Dr. Bormann, 23 – sala 711 – Centro, Niterói – RJ, 24020-330</p>
                             <p>(21) 97575-9062</p>
@@ -144,23 +152,29 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
             <hr>
-            <div id="contato">
+            <section id="contato">
                 <div class="colunas">
-                   <div class="coluna um">
+                   <div id="esquerda_contato">
+                        <img src="img/homura.jpg">                        
+                   </div>
+                   <div id="direita_contato">
                         <h1>Descubra mais sobre si mesmo através da psicanálise</h1>
                         <p>Entre em contato conosco e inicie sua jornada de transformação</p>
-                        <div class="saiba_mais">
-                            <a href="https://api.whatsapp.com/send?phone=5521975759062"><button>Entre em contato conosco</button></a>
-                        </div>
-                   </div>
-                   <div class="coluna dois">
-                        <img src="img/homura.jpg">
+                        <a href="https://api.whatsapp.com/send?phone=5521975759062"><button class="btn-default">Entre em contato conosco</button></a>
                    </div>
                 </div>
-            </div>
+            </section>
             <hr>
+            <footer>
+                <img src="img/sonic.png" width="128px">
+                <p>Atendimento Presencial - Niterói, RJ</p>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-x-twitter"></i>
+            </footer>
         </main>
+        <script src="scripts/script.js"></script>
     </body>
 </html>
