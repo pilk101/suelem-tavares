@@ -1,3 +1,32 @@
 #etapas{
+    display: flex;
     background-color: #e48b57;
+    align-items: center;
+    justify-content: center;
+}
+
+#passos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.passo{
+    display: flex;
+    flex-direction: column;
+    word-wrap: break-word;
+    background-color: #efbf99;
+    justify-content: center;
+    align-items: center;
+    border-radius: 400px;
+    width: 80%;
+    height: 180px;
+    padding: 50px;
+    gap: 10px;
+}
+
+.passo p{
+    text-align: center;
 }
