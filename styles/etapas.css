@@ -30,3 +30,9 @@
 .passo p{
     text-align: center;
 }
+
+@media screen and (max-width: 1170px){
+    .passo p{
+        font-size: 14px;
+    }
+}

@@ -7,7 +7,7 @@
     box-sizing: border-box;
 
 }
-
+/*
 html, body {
     overflow: scroll;
     height: 100%;
@@ -16,7 +16,7 @@ html, body {
 
 html::-webkit-scrollbar, body::-webkit-scrollbar {
     display: none;
-}
+}*/
 
 body{
     background-color: #efbf99;
