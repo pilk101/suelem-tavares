@@ -1,0 +1,73 @@
+#endereco{
+    display: flex;
+    background-color: #e48b57;
+    padding: 100px;
+}
+
+#esquerda_endereco{
+    width: 50vw;
+}
+
+#esquerda_endereco h1{
+    text-align: left;
+    font-size: 40px;
+}
+
+#direita_endereco{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50vw;
+}
+
+#numero{
+    font-size: 30px;
+}
+
+.cilindro{
+    background-color: #efbf99;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 65px;
+    border-radius: 10000px;
+}
+
+.cilindro p{
+    text-align: center;
+}
+
+.cilindro a{
+    color: black;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1170px){
+    #endereco{
+        padding: 30px;
+    }
+
+    #esquerda_endereco{
+        display: none;
+    }
+
+    #esquerda_endereco h1{
+        text-align: center;
+        font-size: 30px;
+    }
+
+    #direita_endereco{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .cilindro{
+        width: 90%;
+        margin: 0 auto;
+    }
+}
