@@ -5,6 +5,9 @@
 }
 
 #esquerda_endereco{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 50vw;
 }
 
@@ -13,12 +16,11 @@
     font-size: 40px;
 }
 
-#direita_endereco{
+#direita_endereço{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 50vw;
 }
 
 #numero{

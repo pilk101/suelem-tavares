@@ -3,6 +3,11 @@
     background-color: #e48b57;
     align-items: center;
     justify-content: center;
+    z-index: 1;
+}
+
+#como_funciona img{
+    z-index: 2;
 }
 
 #texto{
