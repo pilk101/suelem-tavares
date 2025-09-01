@@ -1,7 +1,7 @@
 #cabecalho{
     width: 100%;
     padding: 20px 8%;
-    z-index: 2;
+    z-index: 999;
     background-color: #a45b3a;
     transition: transform 0.3s ease-in-out;
 }
